@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "scripts with near-api-js",
   "scripts": {
-    "format": "rome format --write *"
+    "format": "rome format --write *",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
