@@ -1,0 +1,28 @@
+{
+  "name": "near-scripts",
+  "version": "0.1.0",
+  "description": "scripts with near-api-js",
+  "scripts": {
+    "format": "rome format --write *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akagi201/near-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akagi201/near-scripts/issues"
+  },
+  "homepage": "https://github.com/Akagi201/near-scripts#readme",
+  "dependencies": {
+    "near-api-js": "^1.1.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "rome": "^11.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
