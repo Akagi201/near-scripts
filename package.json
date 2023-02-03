@@ -4,7 +4,8 @@
   "description": "scripts with near-api-js",
   "scripts": {
     "format": "rome format --write *",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "check": "rome ci *"
   },
   "repository": {
     "type": "git",

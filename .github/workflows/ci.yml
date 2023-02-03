@@ -31,8 +31,8 @@ jobs:
       - name: npm ci
         run: npm ci --no-audit
 
-      - name: npm lint
-        run: npm run lint --if-present
+      - name: npm check
+        run: npm run check --if-present
 
       - name: npm test
         run: npm test
